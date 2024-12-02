@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>966</width>
+    <height>625</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>981</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>first_page.webp</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>90</y>
+      <width>691</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(255, 255, 255,0.9);
+border-radius:40px;
+border: 2px solid #ffffff;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>230</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #50a9b8, stop:1 #62ba74); /* Blue to black as main theme */
+    border-radius: 25px; /* Optional: for rounded corners */
+    border: none; /* Optional: remove border */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Optional: adjust padding */
+    font-size: 16px; /* Optional: adjust font size */
+    transition: background 10s; /* Super slow transition */
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #62ba74, stop:1 #50a9b8); /* Black to blue on hover */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Eigen Values and Vector</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>330</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #50a9b8, stop:1 #62ba74); /* Blue to black as main theme */
+    border-radius: 25px; /* Optional: for rounded corners */
+    border: none; /* Optional: remove border */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Optional: adjust padding */
+    font-size: 16px; /* Optional: adjust font size */
+    transition: background 10s; /* Super slow transition */
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #62ba74, stop:1 #50a9b8); /* Black to blue on hover */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Inverse of matrix</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
